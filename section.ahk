@@ -5,12 +5,12 @@
 Input, headline, , {enter} ; , , means no options. is required elsewise input won`t work
 StringUpper headline, headline
 SetKeyDelay, -1 ; no animation for the text insertion
-length := 90 - StrLen(headline)
+length := 71 - StrLen(headline)
 space := " "
 left := (length/2)
 left := Format("{:i}", left)
 right := Round(length/2)
-Send, /* ======================================================================================== */`n
+Send, /* ===================================================================== */`n
 Send, /*
 
 Loop %left% {
@@ -24,10 +24,7 @@ Loop %right% {
 }
 
 Send, */`n
-Send, /* ======================================================================================== */
-Send, %right%
-Send, %left%
-Send, %length%
+Send, /* ===================================================================== */
 return
 
 
