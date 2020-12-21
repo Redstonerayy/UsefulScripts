@@ -1,5 +1,5 @@
 ## Useful Scripts
-# 1.
+1.
 Section.ahk is a Autohotkey script to structure coding projects.
 Commands:
 Shift + => structure
